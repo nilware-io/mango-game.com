@@ -454,7 +454,7 @@ button {
 /* --------------------------- /////////// III. HERO SECTION /////////// --------------------------- */
 /* -Hero Image- */
 .hero-unit {
-    background-image: /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),*/ url(../images/mango/33.jpg);
+    background-image: /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),*/ url(../images/mango2/9.jpg);
     background-size: cover;
     background-position: center;
     min-height: 720px;
@@ -463,7 +463,7 @@ button {
 }
 .hero-caption {
     position: relative;
-    margin-top: 35vh;
+    margin-top: 8vh;
     padding: 0 15px;
 }
 .headline {
@@ -492,7 +492,7 @@ button {
 .video-box {
     height: 30%;
     width: 100%;
-    margin: 25vh 0 0 0;
+    margin: 44vh 0 0 0;
 }
 .video-box img {
     width: 15%;
@@ -551,13 +551,13 @@ button {
     padding: 10vh 5vw;
 }
 #features-section .feature-card:nth-child(1) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/feature.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/mango2/6fm2.jpg);
 }
 #features-section .feature-card:nth-child(2) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/feature.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/mango2/6fm.jpg);
 }
 #features-section .feature-card:nth-child(3) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/feature.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/mango2/6fm1.jpg);
 }
 .features h2 {
     margin-top: 30%;
@@ -587,8 +587,9 @@ button {
 }
 /* -- EXTRA FEATURES --*/
 .extra-features {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 100%), url(../images/bg.jpg);
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 100%), url(../images/mango2/8.jpg);
     background-size: cover;
+    background-position: 50% 50%;
     border-bottom: 2px solid #000;
     background-attachment: fixed;
 }
@@ -666,7 +667,7 @@ button {
 
 /* --------------------------- /////////// VII. CTA SECTION /////////// --------------------------- */
 #cta-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/mango2/13.jpg);
 }
 .game-box {
     float: right;
@@ -767,7 +768,7 @@ button {
 }
 /* --------------------------- /////////// IX. EXTRAS /////////// --------------------------- */
 #extras {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/mango2/14.jpg);
 }
 #extras .headline {
     margin-top: 20vh;
@@ -992,4 +993,35 @@ input {
     #footer-extra .row:first-child {
         padding: 40px 0 20px 0;
     }
+}
+
+/* Custom Rules */
+img.headline {
+    max-width: 71%;
+}
+
+.hero-caption a.button {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.navbar-nav {
+    text-shadow: 1px 1px 2px black;
+}
+
+#form-signup {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.3em 0.5em;
+}
+
+.team h3 {
+    margin-bottom: 0;
+}
+
+.team p {
+    margin-bottom: 1em;
 }
