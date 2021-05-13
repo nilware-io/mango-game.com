@@ -454,7 +454,7 @@ button {
 /* --------------------------- /////////// III. HERO SECTION /////////// --------------------------- */
 /* -Hero Image- */
 .hero-unit {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
+    background-image: /*linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),*/ url(../images/mango/33.jpg);
     background-size: cover;
     background-position: center;
     min-height: 720px;
@@ -536,7 +536,7 @@ button {
 }
 /* --------------------------- /////////// IV. ABOUT SECTION /////////// --------------------------- */
 #about-section {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 100%), url(../images/bg.jpg);
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.4) 100%), url(../images/mango/33.jpg);
 }
 
 /* -RESPONSIVE STYLES- */
