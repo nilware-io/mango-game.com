@@ -8,17 +8,17 @@
 
     <!-- WEBSITE TITLE & DESCRIPTION -->
     <title>Mango - A unique interactive experience</title>
-    <meta name="description" content="Showcase your pc games in the best light">
-    <meta name="keywords" content="game, landing page, gaming, business, ps4, xbox, steam">
+    <meta name="description" content="a surrealist adventure/puzzle game about art and derealization, featuring trippy, psychedelic visuals, intense psychological and philosophical undertones, fragmented storytelling and experimental horror elements">
+    <meta name="keywords" content="adventure game, indie game, puzzle, modern art, interactive art, contemporary art, experimental horror, indie music, original soundtrack, sad mask party, nilware, indie horror, weird game, psychedelic, trippy game, walking simulator, first person">
 
     <!-- OG meta tags that improve the look of your post on social media -->
-    <meta property="og:site_name" content="" /><!--website name-->
-    <meta property="og:site" content="" /> <!--website link-->
-    <meta property="og:title" content=""/> <!--Post title-->
-    <meta property="og:description" content="" /> <!--Post description-->
-    <meta property="og:image" content="" /><!-- Image link (jpg only)-->
-    <meta property="og:url" content="" /> <!--where do you want your post to link to-->
-    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Mango - A unique interactive experience" /><!--website name-->
+    <meta property="og:site" content="https://mango-game.com" /> <!--website link-->
+    <meta property="og:title" content="Mango - A unique interactive experience"/> <!--Post title-->
+    <meta property="og:description" content="a surrealist adventure/puzzle game about art and derealization, featuring trippy, psychedelic visuals, intense psychological and philosophical undertones, fragmented storytelling and experimental horror elements" /> <!--Post description-->
+    <meta property="og:image" content="images/mango2/f1.jpg" /><!-- Image link (jpg only)-->
+    <meta property="og:url" content="https://mango-game.com" /> <!--where do you want your post to link to-->
+    <meta property="og:type" content="website" />
 
     <!-- Favicon and Apple Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
@@ -60,6 +60,15 @@
             <button class="button" id="cookies-close">X</button>
         </div>
     </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RP0GD52V1R"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RP0GD52V1R');
+    </script>
     <!-- //// HEADER //// -->
     <header id="main-header">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
@@ -82,13 +91,10 @@
                             <a class="nav-link" href="#about">The Game</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#features">Highlights</a>
+                            <a class="nav-link" href="#media">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#team">Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#media">Gallery</a>
                         </li>
                         <!-- Dropdown Menu -->          
                         <!-- <li class="nav-item dropdown">
@@ -143,44 +149,74 @@
             <div class="row">
                 <div class="col-xl-6 col-md-12">
                     <h1 class="short-hr-left">THE GAME</h1>
-                    <p>Mango is a surrealist adventure/puzzle game about art and derealization, featuring trippy, psychedelic visuals, intense psychological and philosophical elements, fragmented storytelling and experimental horror elements.</p>
+                    <p>Mango is a surrealist adventure/puzzle game about art and derealization, featuring trippy, psychedelic visuals, intense psychological and philosophical undertones, fragmented storytelling and experimental horror elements.</p>
                     <p>Explore the idea of a mind losing its grasp with reality, as reality turns into a dream, and that dream turns into a nightmare.</p>
+                    <p>
+                        Get warped inside some unique, wildly psychedelic level design with evocative exploration, that will trigger your feelings and memories to create a full, lived-in experience.
+                    </p>
+                    <p>
+                        Mango aspires to be a sprawling interactive experiment about what games and art could be in a time when derealization is #trending.
+                    </p>
+                    <!--<p>
+                        You will need to solve plenty of puzzles, but the biggest puzzle is the game itself.
+                    </p>-->
                 </div>
             </div>
         </div>
     </section>
     
-    <!-- /// FEATURES SECTION /// -->
-    <section id="features-section">
-        <div class="container-fluid">
-            <a id="features"></a><!-- Nav anchor -->
-            <div class="row features text-center">
-                <div class="col-md-4 feature-card">
-                    <!--<h2 class="short-hr-center">EXPLORE</h2>-->
-                    <p>
-                        Get warped inside some unique, wildly psychedelic level design with evocative exploration, that will trigger your feelings and memories to create a full, lived-in experience.
-                    </p>
+    <!-- /// MEDIA SECTION /// -->
+    <section id="media-section">
+        <a id="media"></a><!-- Nav Anchor -->
+        <div class="grid-gallery">
+            <div class="row">
+                <div class="col-md-4 gallery-item">
+                    <a href="images/mango2/15.jpg" data-lightbox="studio_gallery">
+                        <div class="overlay"></div>
+                        <img src="images/mango2/gallery5.jpg" data-src="images/mango2/15.jpg" class="img-fluid b-lazy" alt="">
+                    </a>
                 </div>
-                <div class="col-md-4 feature-card">
-                    <!--<h2 class="short-hr-center">EXPERIENCE</h2>-->
-                    <p>
-                        Mango aspires to be a sprawling philosophical and psychological experiment about what games and art could be in a time when derealization threatens to overcome reality.
-                    </p>
+                <div class="col-md-4 gallery-item">
+                    <a href="images/mango2/3a.jpg" data-lightbox="studio_gallery">
+                        <div class="overlay"></div>
+                        <img src="images/mango2/gallery3.jpg" data-src="images/mango2/3a.jpg" class="img-fluid b-lazy" alt="">
+                    </a>
                 </div>
-                <div class="col-md-4 feature-card">
-                    <!--<h2 class="short-hr-center">PHILOSOPHIZE</h2>-->
-                    <p>
-                        You will need to solve plenty of puzzles, but the biggest puzzle is the game itself.
-                    </p>
+                <div class="col-md-4 gallery-item">
+                    <a href="images/mango2/11.jpg" data-lightbox="studio_gallery">
+                        <div class="overlay"></div>
+                        <img src="images/mango2/gallery8.jpg" data-src="images/mango2/11.jpg" class="img-fluid b-lazy" alt="">
+                    </a>
                 </div>
             </div>
-            <div class="row extra-features">
-                <!--
-                <div class="col-xl-4 col-md-12 text-center d-flex align-items-end">
-                    <img src="images/character1.png" class="img-fluid animation-element slide-in-left">
+            <div class="row">
+                <div class="col-md-4 gallery-item">
+                    <a href="images/mango2/12.jpg" data-lightbox="studio_gallery">
+                        <div class="overlay"></div>
+                        <img src="images/mango2/gallery7.jpg" data-src="images/mango2/12.jpg" class="img-fluid b-lazy" alt="">
+                    </a>
                 </div>
-                 -->
-                <div id="team" class="col-xl-8 col-md-12 team">
+                <div class="col-md-4 gallery-item">
+                    <a href="images/mango2/2a.jpg" data-lightbox="studio_gallery">
+                        <div class="overlay"></div>
+                        <img src="images/mango2/gallery4.jpg" data-src="images/mango2/2a.jpg" class="img-fluid b-lazy" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item">
+                    <a href="images/mango2/memory 2.jpg" data-lightbox="studio_gallery">
+                        <div class="overlay"></div>
+                        <img src="images/mango2/gallery1.jpg" data-src="images/mango2/memory 2.jpg" class="img-fluid b-lazy" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="team-section">
+        <div class="container">
+            <div class="row team">
+                <div id="team" class="col-xl-6 col-md-12">
                     <h2 class="short-hr-left">Team</h2>
                     <h3>Sad Mask Party (Pavlos Paliouras)</h3>
                     <p>Game & level design, sound design, concept, story, text, soundtrack, modelling, art direction, photography, graphic design, animations, logic</p>
@@ -200,75 +236,6 @@
                     <p>Additional text</p>
                 </div> 
             </div>
-            <!--
-            <div class="row extra-features right">
-                <div class="col-xl-8 col-md-12">
-                    <h2 class="short-hr-right">Konstantinos Kamaropoulos</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et convallis lorem, sed molestie nibh. Nam et accumsan ligula. Aliquam erat volutpat. Donec venenatis porta ligula ac placerat.
-                    Cras in mauris augue. Nulla eu tellus arcu. Duis aliquet sit amet tortor eget vestibulum.</p>
-                </div>
-                <div class="col-xl-4 col-md-12 text-center d-flex align-items-end">
-                    <img src="images/character2.png" class="img-fluid animation-element slide-in-right">
-                </div>
-            </div>
-            <div class="row extra-features">
-                <div class="col-xl-4 col-md-12 text-center d-flex align-items-end">
-                    <img src="images/character3.png" class="img-fluid animation-element slide-in-left">
-                </div>
-                <div class="col-xl-8 col-md-12">
-                    <h2 class="short-hr-left">Dimitris Panagiotopoulos</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et convallis lorem, sed molestie nibh. Nam et accumsan ligula. Aliquam erat volutpat. Donec venenatis porta ligula ac placerat.
-                    Cras in mauris augue. Nulla eu tellus arcu. Duis aliquet sit amet tortor eget vestibulum.</p>
-                </div>
-            </div>
-        -->
-        </div>
-    </section>
-    
-    <!-- /// MEDIA SECTION /// -->
-    <section id="media-section">
-        <a id="media"></a><!-- Nav Anchor -->
-        <div class="grid-gallery">
-            <div class="row">
-                <div class="col-md-4 gallery-item">
-                    <a href="images/mango2/15.jpg" data-lightbox="studio_gallery">
-                        <div class="overlay"></div>
-                        <img src="images/mango2/gallery5.jpg" data-src="images/mango2/15.jpg" class="img-fluid b-lazy" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="images/mango2/3.jpg" data-lightbox="studio_gallery">
-                        <div class="overlay"></div>
-                        <img src="images/mango2/gallery3.jpg" data-src="images/mango2/3.jpg" class="img-fluid b-lazy" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="images/mango2/11.jpg" data-lightbox="studio_gallery">
-                        <div class="overlay"></div>
-                        <img src="images/mango2/gallery8.jpg" data-src="images/mango2/11.jpg" class="img-fluid b-lazy" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 gallery-item">
-                    <a href="images/mango2/12.jpg" data-lightbox="studio_gallery">
-                        <div class="overlay"></div>
-                        <img src="images/mango2/gallery7.jpg" data-src="images/mango2/12.jpg" class="img-fluid b-lazy" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="images/mango2/2.jpg" data-lightbox="studio_gallery">
-                        <div class="overlay"></div>
-                        <img src="images/mango2/gallery4.jpg" data-src="images/mango2/2.jpg" class="img-fluid b-lazy" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 gallery-item">
-                    <a href="images/mango2/memory 2.jpg" data-lightbox="studio_gallery">
-                        <div class="overlay"></div>
-                        <img src="images/mango2/gallery1.jpg" data-src="images/mango2/memory 2.jpg" class="img-fluid b-lazy" alt="">
-                    </a>
-                </div>
-            </div>
         </div>
     </section>
     
@@ -278,7 +245,7 @@
         <div class="container">
             <div class="row tiny-margin cta-card">
                 <div class="col-md-6">
-                    <img src="images/mango2/gr2.png" class="img-fluid game-box animation-element slide-in-left">
+                    <img src="images/mango2/f1.jpg" class="img-fluid game-box animation-element slide-in-left">
                 </div>
                 <div class="col-md-6">
                     <h1>GET<br>INTO<br>IT</h1>
@@ -377,19 +344,20 @@
                             <p>Stay informed about Mango and other upcoming projects from nilware.io</p>
                         </div>
                     </div>
-                    <div id="newsletter-box" class="row tiny-margin">
+                    <!-- <div id="newsletter-box" class="row tiny-margin">
                         <div class="col-md-12">
                             <h3>NEWSLETTER</h3>    
                             <form id="newsletter" data-toggle="validator">
-                                <input type="email" id="emailsign" placeholder="Your Email Address"> <!-- Email Field -->
+                                <input type="email" id="emailsign" placeholder="Your Email Address">
                                 <button type="submit" id="form-signup" class="buttGame Landing Page on">SUBSCRIBE</button>
                                 <div id="msgSignup" class="h3 text-center hidden"></div>
                             </form>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="row social">
                         <div class="col-md-12">
                             <ul class="social-links"> <!-- Social Media Icons -->
+                                <li><a href="https://discord.gg/UNj4W98jf8"><i class="fab fa-discord fa-lg icon-social"></i></a></li>
                                 <li><a href="https://www.facebook.com/mangothegame"><i class="fab fa-facebook-f fa-lg icon-social"></i></a></li>
                                 <!-- <li><a href="#"><i class="fab fa-twitter  fa-lg icon-social"></i></a></li> -->
                                 <li><a href="https://www.instagram.com/mangothegame/"><i class="fab fa-instagram fa-lg icon-social"></i></a>
