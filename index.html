@@ -92,7 +92,44 @@
          transition: opacity .3s, left .4s;
          top: 50%;
          z-index: -1;
-        }    
+        }
+       
+       #social-sidebar a span:before {
+            content: "";
+            display: block;
+            height: 8px;
+          width: 8px;
+            left: -4px;
+            margin-top: -4px;
+            position: absolute;
+            top: 50%;
+            transform: rotate(45deg);
+        }
+
+
+        #social-sidebar a[class*="discord"]:hover,
+        #social-sidebar a[class*="discord"] span,
+        #social-sidebar a[class*="discord"] span:before {background: #5865F2;}
+       
+        #social-sidebar a[class*="twitter"]:hover,
+        #social-sidebar a[class*="twitter"] span,
+        #social-sidebar a[class*="twitter"] span:before {background: #1DA1F2;}
+       
+        #social-sidebar a[class*="instagram"]:hover,
+        #social-sidebar a[class*="instagram"] span,
+        #social-sidebar a[class*="instagram"] span:before {background: #C13584;}
+
+        #social-sidebar a[class*="facebook"]:hover,
+        #social-sidebar a[class*="facebook"] span,
+        #social-sidebar a[class*="facebook"] span:before {background: #3b5998;}
+
+        #social-sidebar a[class*="youtube"]:hover,
+        #social-sidebar a[class*="youtube"] span,
+        #social-sidebar a[class*="youtube"] span:before {background: #FF0000;}
+
+        #social-sidebar a[class*="tiktok"]:hover,
+        #social-sidebar a[class*="tiktok"] span,
+        #social-sidebar a[class*="tiktok"] span:before {background: #6BB130;}
    </style>
     
 </head>
@@ -113,23 +150,19 @@
     <a class="fab fa-discord"><span>Discord</span></a>
   </li>
   <li>
-    <a class="fab fa-facebook"><span>Facebook</span></a>
-  </li>
-  <li>
     <a class="fab fa-twitter"><span>Twitter</span></a>
   </li>
   <li>
     <a class="fab fa-instagram"><span>Instagram</span></a>
   </li>
   <li>
+    <a class="fab fa-facebook"><span>Facebook</span></a>
+  </li>
+  <li>
     <a class="fab fa-youtube"><span>YouTube</span></a>
   </li>
   <li>
-    <a>
-        <svg width="50" height="50">       
-             <image xlink:href="/images/tiktok-brands.svg" width="50" height="50"/>    
-        </svg>
-        <span>TikTok</span></a>
+      <a class="fab fa-tiktok"><span>TikTok</span></a>
   </li>
 </ul>
     
