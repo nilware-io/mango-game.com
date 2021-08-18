@@ -49,6 +49,60 @@
     <link href="css/lightbox.min.css" rel="stylesheet">
     <!-- Main Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+   <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+        @import url(https://weloveiconfonts.com/api/?family=entypo);
+
+        [class^="entypo-"]:before {
+         font-family: 'entypo', sans-serif;
+        }
+        body {
+          background: #e6e6e6;
+        }
+        #social-sidebar {
+         left: 0;
+         position: fixed;
+         top: 30%;
+        }
+        #social-sidebar li:first-child a { border-top-right-radius: 5px; }
+        #social-sidebar li:last-child a { border-bottom-right-radius: 5px; }
+
+        #social-sidebar a {
+         background: rgba(0, 0, 0, .7);
+         color: #fff;
+            text-decoration: none;
+         display: block;
+         height: 50px;
+         width: 50px;  
+         font-size: 24px;
+         line-height: 50px;
+         position: relative;
+         text-align: center;
+            cursor: pointer;
+        }
+        #social-sidebar a:hover span {
+         left: 120%;
+         opacity: 1;
+        }
+        #social-sidebar a span {
+          font: 12px "Open Sans", sans-serif;
+          text-transform: uppercase;
+         border-radius: 3px;
+         line-height: 24px;
+         left: -100%;
+         margin-top: -16px;
+         opacity: 0;
+         padding: 4px 8px;
+         position: absolute;
+         transition: opacity .3s, left .4s;
+         top: 50%;
+         z-index: -1;
+        }    
+   </style>
+    
 </head>
 <body>
     <!-- Cookies Notification -->
@@ -60,6 +114,26 @@
             <button class="button" id="cookies-close">X</button>
         </div>
     </div>
+    
+    
+ <ul id="social-sidebar">
+  <li>
+    <a class="entypo-discord"><span>Discord</span></a>
+  </li>
+  <li>
+    <a class="entypo-facebook"><span>Facebook</span></a>
+  </li>
+  <li>
+    <a class="entypo-twitter"><span>Twitter</span></a>
+  </li>
+  <li>
+    <a class="entypo-instagram"><span>Instagram</span></a>
+  </li>
+  <li>
+    <a class="entypo-youtube"><span>YouTube</span></a>
+  </li>
+</ul>
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RP0GD52V1R"></script>
     <script>
