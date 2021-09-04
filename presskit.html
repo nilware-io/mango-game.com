@@ -39,7 +39,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- FontAwesome -->
-    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/all.min.css" rel="stylesheet">
     <!-- Video Modal -->
     <link href="css/modal-video.min.css" rel="stylesheet">
@@ -60,6 +60,30 @@
 
     gtag('config', 'G-RP0GD52V1R');
     </script>
+
+<ul id="social-sidebar">
+    <li>
+      <a href="https://discord.gg/UNj4W98jf8" class="fab fa-discord"><span>Discord</span></a>
+    </li>
+    <li>
+      <a href="https://twitter.com/MangoTheGame" class="fab fa-twitter"><span>Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/mangothegame/" class="fab fa-instagram"><span>Instagram</span></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/mangothegame" class="fab fa-facebook"><span>Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/channel/UC23z5qMvFBrEI_MzwR3zKtw" class="fab fa-youtube"><span>YouTube</span></a>
+    </li>
+    <li>
+      <a href="https://www.tiktok.com/@mangothegame" class="fab fa-tiktok"><span>TikTok</span></a>
+    </li>
+    <li>
+      <a href="https://store.steampowered.com/app/1458690/Mango/?source=mango-game" class="fab fa-steam"><span>Steam</span></a>
+    </li>
+  </ul>
     <!-- //// HEADER //// -->
     <header id="main-header">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
@@ -100,8 +124,28 @@
                         <li class="nav-item">
                             <a class="nav-link" href="https://store.steampowered.com/app/1458690/Mango/?source=mango-game">Purchase</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#presskit.html">Press Kit</a>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="presskit.html">Press Kit</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle page-scroll" data-toggle="dropdown" href="presskit.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Press Kit</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/presskit.html#team"><span class="item-text">The Team</span></a>
+                                <div class="dropdown-items-divide-hr"></div>
+                                <a class="dropdown-item" href="/presskit.html#game"><span class="item-text">The Game</span></a>
+                                <div class="dropdown-items-divide-hr"></div>
+                                <a class="dropdown-item" href="/presskit.html#images"><span class="item-text">Images</span></a>
+                                <div class="dropdown-items-divide-hr"></div>
+                                <a class="dropdown-item" href="/presskit.html#videos"><span class="item-text">Videos</span></a>
+                                <div class="dropdown-items-divide-hr"></div>
+                                <a class="dropdown-item" href="/presskit.html#platforms"><span class="item-text">Platforms</span></a>
+                                <div class="dropdown-items-divide-hr"></div>
+                                <a class="dropdown-item" href="/presskit.html#requirements"><span class="item-text">System Requirements</span></a>
+                                <div class="dropdown-items-divide-hr"></div>
+                                <a class="dropdown-item" href="/presskit.html#articles"><span class="item-text">Selected Articles</span></a>
+                                <div class="dropdown-items-divide-hr"></div>
+                                <a class="dropdown-item" href="/presskit.html#awards"><span class="item-text">Awards</span></a>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -111,213 +155,228 @@
 
     <div class="extra-page">
         <!-- /// HERO SECTION /// -->
-        <section id="hero-section" class="extra-page">
-            <div class="row hero-unit">
-                <div class="container">
-                    <div class="hero-caption"><!-- Main Tagline -->
- <!-- Press Kit title                       
- <h1 class="short-hr-center text-center">PRESS KIT</h1>
-                                <div class="row tiny-margin">                                    
-                                </div>-->
-                        <div class="row col-md-12">
-
-                                <div class="col-md-6 text-right team">
-                                    <h2 class="short-hr-right">THE TEAM</h2>                                  
-                                    <h6>Sad Mask Party (Pavlos Paliouras)</h6>
-                                    <p>Game & level design, sound design, concept, story, text, soundtrack, modelling, art direction, photography, graphic design, animations, logic</p>
-                                    <h6>Dimitris Panagiotopoulos</h6>
-                                    <p>Art-direction, graphic design, concept</p>
-                                    <h6>Konstantinos Kamaropoulos</h6>
-                                    <p>Programming</p>
-                                    <h6>Stefanos Kornilios Mitsis Poiitidis</h6>
-                                    <p>Concept, programming</p>
-                                    <h6>Giorgos Katsarakis</h6>
-                                    <p>Photography</p>
-                                    <h6>Aggelos Gourgouras</h6>
-                                    <p>Additional soundtracks</p>
-                                    <h6>Christina Olson</h6>
-                                    <p>Voice acting</p>
-                                    <h6>Kenon</h6>
-                                    <p>Additional text</p>
-                                </div> 
-                                <div class="col-md-6 text-left team">
-                                    <h2 class="short-hr-left">THE GAME</h2>
-                                    <p>Mango is a surrealist first-person adventure/puzzle game about art and derealization, featuring trippy, psychedelic visuals, intense psychological and philosophical undertones, fragmented storytelling and experimental horror elements.</p>
-                                    <p>It explores the idea of a mind losing its grasp with reality, as reality turns into a dream, and that dream turns into a nightmare. It has an off-kilter tone that can shift from overly chill to downright scary. Often it resembles an acid trip, or an interactive fever dream.</p>
-                                    <p>The game contains some fairly experimental mechanics, freaky action, even more freaky fashion, deconstructed urban landscapes and/or dreamscapes, existential angst, questionable parenting, a bit of driving, and a fair load of straight-up madness.</p>
-                                    <p>It is a full length title, with ~10 hours of gameplay, where you NEVER really know what to expect, or what comes next.</p>
-                                    <p>It has been described as simultaneously dadaist and hyper-realist in nature, both alien and also deeply human, as well as the story of a life, filtered through the eyes of the mind.</p>
-                                    <p>Also, it has been described as WEIRD as hell 😉</p>
-                                </div> 
-
-                        </div>
-
-                        <!-- /// Images /// -->
-                            <h2 class="short-hr-center text-center">IMAGES</h2>                         
-                                <div class="grid-gallery">
-                                    <div class="row">
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/2a.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/2a.jpg" data-src="images/presskit/2a.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/3a.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/3a.jpg" data-src="images/presskit/3a.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/8.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/8.jpg" data-src="images/presskit/8.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/9.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/9.jpg" data-src="images/presskit/9.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/11.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/11.jpg" data-src="images/presskit/11.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/12.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/12.jpg" data-src="images/presskit/12.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/14.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/14.jpg" data-src="images/presskit/14.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/15.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/15.jpg" data-src="images/presskit/15.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/18.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/18.jpg" data-src="images/presskit/18.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/19.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/19.jpg" data-src="images/presskit/19.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/20.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/20.jpg" data-src="images/presskit/20.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="col-md-4 gallery-item">
-                                            <a href="images/presskit/memory 2.jpg" data-lightbox="studio_gallery">
-                                                <div class="overlay"></div>
-                                                <img src="images/presskit/memory 2.jpg" data-src="images/presskit/memory 2.jpg" class="img-fluid b-lazy" alt="">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row tiny-margin">                                    
-                                </div>
-
-                                <h2 class="short-hr-center text-center">VIDEO</h2>      
-
-                                <iframe style="margin: 0 auto; display: block;" width="560" height="315" src="https://www.youtube.com/embed/40TubdM8Yek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                                <div class="row tiny-margin">                                    
-                                </div>
-
-                        <div class="row col-md-12">
-                            <div class="col-md-12 text-center">
-                                <p></p>
-                                <h6 class="short-hr-center text-center">PLATFORMS</h6>                                
-                                <ul>
-                                    <li>Windows</li>
-                                    <li>Linux</li>
-                                </ul>   
-                            </div>                             
-                        </div>
-
-                        <div class="row col-md-12">
-                            <div class="col-md-6 text-right">
-                                <h6 class="short-hr-right">MINIMUM SYSTEM REQUIREMENTS</h6>                                
-                                <ul>
-                                    <li><b>CPU:</b> Any i5 or higher </li>
-                                    <li><b>RAM:</b> 8 GB</li>
-                                    <li><b>OS:</b> Windows 7+ or Ubuntu 20.04+</li>
-                                    <li><b>VIDEO CARD:</b> Nvidia GPU GeForce GTX 960 / AMD GPU Radeon 480</li>
-                                    <li><b>FREE</b> DISK SPACE: 5 GB</li>
-                                </ul>                                    
-                            </div>
-
-                            <div class="col-md-6 text-left">
-                                <h6 class="short-hr-left">RECOMENDED  SYSTEM REQUIREMENTS</h6>
-                                <ul>
-                                    <li><b>CPU:</b> Any i7 or higher</li>
-                                    <li><b>RAM:</b> 16 GB</li>
-                                    <li><b>OS:</b> Windows 7+ or Ubuntu 20.04+</li>
-                                    <li><b>VIDEO CARD:</b> Nvidia GPU GeForce GTX 1060 / AMD GPU Radeon 580</li>
-                                    <li><b>FREE</b> DISK SPACE: 5 GB</li>
-                                  </ul>
-                            </div>
-                        </div>
-
-                        <div class="row col-md-12">
-                            <div class="col-md-12 text-center">
-                                <p></p>
-                                <h6 class="short-hr-center text-center">SELECTED ARTICLES</h6>                                
-                                <ul>
-                                    <li><a href="https://justgamer.gr/mango-the-preview-early-access/">Just Gamer - Mango | Preview</a> (Greek)</li>
-                                    <li><a href="https://www.gameover.gr/2021/06/28/mango-review/">GAMEOVER - Mango | Review</a> (Greek)</li>
-                                </ul>   
-                            </div>                             
-                        </div>
-
-                        <div class="row col-md-12">
-                            <div class="col-md-12 text-center">
-                                <p></p>
-                                <h6 class="short-hr-center text-center">AWARDS</h6>                                
-                                <ul>
-                                    <li><a href="https://2021.amaze-berlin.de/honorable-mentions/mango/">A MAZE. BERLIN 2021</a> - HONORABLE MENTION</li>
-                                </ul>   
-                            </div>                             
-                        </div>
-
-                        <div class="row col-md-12">
-                            <div class="col-md-12 text-center">
-                                <p></p>
-                                <ul>
-                                    <li>Proudly published by <a href="https://nilware.io">nilware.io</a></li>
-                                </ul>   
-                            </div>                             
-                        </div>
-
-                    </div>
+        
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumb" class="small-margin breadcrumb-nav">
+            <div class="container">
+                <div class="row">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Press Kit</li>
+                    </ol>
                 </div>
             </div>
-        </section><!-- Hero Section End -->
+        </nav>
+
+        <section class="extra-page small-margin">
+            <div class="container">
+                <div class="row col-md-12">
+                    <div class="col-md-6 text-right team">
+                        <h2 class="short-hr-right pb-3" id="team">THE TEAM</h2>                                  
+                        <h6>Sad Mask Party (Pavlos Paliouras)</h6>
+                        <p>Game & level design, sound design, concept, story, text, soundtrack, modelling, art direction, photography, graphic design, animations, logic</p>
+                        <h6>Dimitris Panagiotopoulos</h6>
+                        <p>Art-direction, graphic design, concept</p>
+                        <h6>Konstantinos Kamaropoulos</h6>
+                        <p>Programming</p>
+                        <h6>Stefanos Kornilios Mitsis Poiitidis</h6>
+                        <p>Concept, programming</p>
+                        <h6>Giorgos Katsarakis</h6>
+                        <p>Photography</p>
+                        <h6>Aggelos Gourgouras</h6>
+                        <p>Additional soundtracks</p>
+                        <h6>Christina Olson</h6>
+                        <p>Voice acting</p>
+                        <h6>Kenon</h6>
+                        <p>Additional text</p>
+                    </div> 
+                    <div class="col-md-6 text-left team">
+                        <h2 class="short-hr-left pb-1" id="game">THE GAME</h2>
+                        <p>Mango is a surrealist first-person adventure/puzzle game about art and derealization, featuring trippy, psychedelic visuals, intense psychological and philosophical undertones, fragmented storytelling and experimental horror elements.</p>
+                        <p>It explores the idea of a mind losing its grasp with reality, as reality turns into a dream, and that dream turns into a nightmare. It has an off-kilter tone that can shift from overly chill to downright scary. Often it resembles an acid trip, or an interactive fever dream.</p>
+                        <p>The game contains some fairly experimental mechanics, freaky action, even more freaky fashion, deconstructed urban landscapes and/or dreamscapes, existential angst, questionable parenting, a bit of driving, and a fair load of straight-up madness.</p>
+                        <p>It is a full length title, with ~10 hours of gameplay, where you NEVER really know what to expect, or what comes next.</p>
+                        <p>It has been described as simultaneously dadaist and hyper-realist in nature, both alien and also deeply human, as well as the story of a life, filtered through the eyes of the mind.</p>
+                        <p>Also, it has been described as WEIRD as hell 😉</p>
+                    </div> 
+
+            </div>
+
+            <!-- /// Images /// -->
+                <h2 class="short-hr-center text-center pt-5 pb-3" id="images">IMAGES</h2>                         
+                    <div class="grid-gallery">
+                        <div class="row">
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/2a.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/2a.jpg" data-src="images/presskit/2a.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/3a.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/3a.jpg" data-src="images/presskit/3a.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/8.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/8.jpg" data-src="images/presskit/8.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/9.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/9.jpg" data-src="images/presskit/9.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/11.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/11.jpg" data-src="images/presskit/11.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/12.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/12.jpg" data-src="images/presskit/12.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/14.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/14.jpg" data-src="images/presskit/14.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/15.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/15.jpg" data-src="images/presskit/15.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/18.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/18.jpg" data-src="images/presskit/18.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/19.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/19.jpg" data-src="images/presskit/19.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/20.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/20.jpg" data-src="images/presskit/20.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-4 gallery-item">
+                                <a href="images/presskit/memory 2.jpg" data-lightbox="studio_gallery">
+                                    <div class="overlay"></div>
+                                    <img src="images/presskit/memory 2.jpg" data-src="images/presskit/memory 2.jpg" class="img-fluid b-lazy" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row tiny-margin">                                    
+                    </div>
+
+                    <h2 class="short-hr-center text-center pt-5 pb-3" id="videos">VIDEOS</h2>      
+
+                    <iframe style="margin: 0 auto; display: block;" width="560" height="315" src="https://www.youtube.com/embed/40TubdM8Yek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    <div class="row tiny-margin">                                    
+                    </div>
+
+            <div class="row col-md-12 pt-5">
+                <div class="col-md-12 text-center">
+                    <p></p>
+                    <h6 class="short-hr-center text-center pb-1" id="platforms">PLATFORMS</h6>                                
+                    <ul>
+                        <li>Windows</li>
+                        <li>Linux</li>
+                    </ul>   
+                </div>                             
+            </div>
+
+            <div class="row col-md-12 pt-5">
+                <div class="col-md-6 text-right">
+                    <h6 class="short-hr-right pb-1" id="requirements">MINIMUM SYSTEM REQUIREMENTS</h6>                                
+                    <ul>
+                        <li><b>CPU:</b> Any i5 or higher </li>
+                        <li><b>RAM:</b> 8 GB</li>
+                        <li><b>OS:</b> Windows 7+ or Ubuntu 20.04+</li>
+                        <li><b>VIDEO CARD:</b> Nvidia GPU GeForce GTX 960 / AMD GPU Radeon 480</li>
+                        <li><b>FREE</b> DISK SPACE: 5 GB</li>
+                    </ul>                                    
+                </div>
+
+                <div class="col-md-6 text-left">
+                    <h6 class="short-hr-left pb-1">RECOMENDED  SYSTEM REQUIREMENTS</h6>
+                    <ul>
+                        <li><b>CPU:</b> Any i7 or higher</li>
+                        <li><b>RAM:</b> 16 GB</li>
+                        <li><b>OS:</b> Windows 7+ or Ubuntu 20.04+</li>
+                        <li><b>VIDEO CARD:</b> Nvidia GPU GeForce GTX 1060 / AMD GPU Radeon 580</li>
+                        <li><b>FREE</b> DISK SPACE: 5 GB</li>
+                      </ul>
+                </div>
+            </div>
+
+            <div class="row col-md-12 pt-5" id="articles">
+                <div class="col-md-12 text-center">
+                    <p></p>
+                    <h6 class="short-hr-center text-center pb-1">SELECTED ARTICLES</h6>                                
+                    <ul>
+                        <li><a href="https://justgamer.gr/mango-the-preview-early-access/">Just Gamer - Mango | Preview</a> (Greek)</li>
+                        <li><a href="https://www.gameover.gr/2021/06/28/mango-review/">GAMEOVER - Mango | Review</a> (Greek)</li>
+                    </ul>   
+                </div>                             
+            </div>
+
+            <div class="row col-md-12 pt-5" id="awards">
+                <div class="col-md-12 text-center">
+                    <p></p>
+                    <h6 class="short-hr-center text-center pb-1">AWARDS</h6>                                
+                    <ul>
+                        <li><a href="https://2021.amaze-berlin.de/honorable-mentions/mango/">A MAZE. BERLIN 2021</a> - HONORABLE MENTION</li>
+                    </ul>   
+                </div>                             
+            </div>
+
+            <div class="row col-md-12 pt-5">
+                <div class="col-md-12 text-center">
+                    <p></p>
+                    <ul>
+                        <li>Proudly published by <a href="https://nilware.io">nilware.io</a></li>
+                    </ul>   
+                </div>                             
+            </div>
+
+            </div>
+        </section>
+
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumb" class="breadcrumb-nav">
+            <div class="container">
+                <div class="row">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Press Kit</li>
+                    </ol>
+                </div>
+            </div>
+        </nav>
     </div>
-    
     <!-- //// SCRIPTS //// -->
     <script src="js/jquery-3.4.0.min.js"></script>
     <script src="js/popper.min.js"></script>
